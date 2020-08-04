@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+	background-color: #FF33A7;
+	font-family: 'Rowdies', cursive;
+}
+
+.container{
+     max-width: 800px;
+     background-color: #060104;
+     margin: 0 auto;
+     padding: 20px;
+     
+}
+img{
+   height: 120px;
+   width: 100px;
+   border: 1px solid white;
+   border-radius: 70px;
+   float: left;
+
+}
+.bio{
+  float: left;
+  padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+
+	color: #33FF37;
+	cursor: pointer;
+}
+.contact{
+	float: left;
+	padding: 30px;
+}
+.contact p a{
+	text-decoration: none;
+	color:#33FF37;
+	font-weight: bold;
+}
+.contact p a:hover{
+ background-color: red;
+ text-decoration: underline;
+  }
+  .clear{
+  	clear: both;
+  }
+  hr{
+  	border: 3px solid red;
+  	margin: 20px auto;
+  border-bottom: none;
+  width: 100%;
+  }
+  #personal_section{}
+  .personal_content{
+  	
+  	overflow: hidden;
+  }
+  .left{
+  	width: 30%;
+  	float: left;
+  }
+  .right{
+  	width: 70%;
+  	float: left;
+  }
+  .common-hr{
+  	border: 1px solid red;
+  	border-bottom: none;
+  	width: 100%;
+  	margin: 20px auto;
+  }
+  #work-experience{
+  	overflow: hidden;
+  }
+  .work{}
+  p{color: #27AE60}
+  .bottom{
+  	margin: 20px;
+  	background-color: white;
+  	text-align: center;
+  }
+  .bottom a{
+		text-decoration: none;
+		padding: 10px;
+		color: red;
+		}
+.bottom a:hover{
+		color:black;
+}
